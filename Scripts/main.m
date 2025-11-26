@@ -5,9 +5,13 @@ function main()
 
     addpath('C:\Users\santi\Laboratorio-IPS\Scripts');
     % ----- Ejercicio 1: señal y TFTD aproximada -----
-    graficar_senial(numal);
+    % graficar_senial(numal);
 
-    % ----- Ejercicio 1: Sistema 1 (h1, H1, etc.) -----
-    sistema1(numal);
+    % ----- Ejercicio 1:
+    % ----- sacar el comentario y correr "main" para ver el sistema que quiera analizar
+    % sistema1(numal);
+    % sistema2(numal);
+    % sistema3(numal);
+    % sistema4(numal);
 end
 
