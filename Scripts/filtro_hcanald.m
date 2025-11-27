@@ -12,7 +12,7 @@ function y = filtro_hcanald(x)
         if n > d1
             x_n_d1 = x(n - d1);
         else
-            x_n_d1 = 0;   % para n <= 8820, x[n-8820] = 0 (causalidad)
+            x_n_d1 = 0;   % para n <= 8820, x[n-8820] = 0
         end
 
         % x[n-17640]
