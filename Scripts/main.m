@@ -19,6 +19,7 @@ function main()
     % graficar_hcanald(numal);
     % tester_hcanald(numal);
     [x, fs] = audioread('audio.wav');
+    fs
     y = filtro_hcanald(x);
     sound(x, fs);   % entrada
     pause(length(x)/fs + 0.5);
